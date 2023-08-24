@@ -1,14 +1,50 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-<title>Bootstrap Example</title>
+@ -9,49 +9,42 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
     <body>
+        <nav class="navbar" style="background-color: #e3f2fd;">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                  
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                         <li class="nav-item">
+                           <a class="nav-link active" aria-current="page" href="#">Sugestões</a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link" href="acervo.html">Termos</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Categorias
+                           </a>
+                           <ul class="dropdown-menu">
+                             <li><a class="dropdown-item" href="#">Alimentos </a></li>
+                             <li><a class="dropdown-item" href="#">Automação</a></li>
+                             <li><a class="dropdown-item" href="#">Currículo comum</a></li>
+                             <li><a class="dropdown-item" href="#">Eltroeletrônica</a></li>
+                             <li><a class="dropdown-item" href="#">Gestão</a></li>
+                             <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
+                             <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
+                             <li><a class="dropdown-item" href="#">Segurança de trabalho </a></li>
+                             <li><a class="dropdown-item" href="#">TI</a></li>
+                             <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
+                             <li><a class="dropdown-item" href="#">Meio ambiente</a></li>
+       
+                             <li><hr class="dropdown-divider"></li>
+                           </ul>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                         </li>
+                       </ul>
+                       <form class="d-flex" role="search">
+                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                         <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                       </form>
+                     </div>
+                   </div>
+                 </nav> 
+             </nav>
       <nav class="navbar" style="background-color: #e3f2fd;">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" >
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,77 +84,3 @@
              <style>
                .container{
                    padding: 30px;
-                   display: grid;
-                   grid-template-columns: repeat(3, 1fr);
-                   gap: 30px;
-               }
-               .element {
-                   display: flex;
-                   flex-direction: column;
-                   height: 100%;
-                   width: auto;
-                   text-align: center;
-                   align-items: center;
-                   justify-content: center;
-                   border: 1px solid black;
-                   border-radius: 20px;
-                   padding: 10px;
-               }
-               img {
-                   height: 30vh;
-                   width: 20vh;
-               }
-           </style>
-
-</style>
-<div class="container">
-<div class="element">
-<p><a href="hhttps://www.estantevirtual.com.br/busca?q=Assistente%20Administrativo" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Assistente Administrativo</a></p>
-<img src ="img/Assistente Administrativo.jpg" alt="">
-</div>
-
-<div class="element">
-<p><a href="https://www.estantevirtual.com.br/livros/senai/tolerancia-geometrica/527959703?ano_min=2010&livro_usado=1&b_order=preco&gclid=Cj0KCQjw_5unBhCMARIsACZyzS1I7RlPtCQV5JXhBIYeogBqaVZW6oVTUjmCsGLeDKr9c_449_BiwmQaArKAEALw_wcB" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Tolerância Geométrica</a></p>
-<img src ="img/Tolerância geométrica.jpg" alt="">
-
-</div>
-<div class="element">
-    
-<p><a href="https://www.amazon.com.br/Desenho-Aplicado-ao-Projeto-Mecanismos/dp/8583931445" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Desenho aplicado ao projeto de mecanismos</a></p>
-<img src ="img/Desenho aplicado ao projeto de mecanismos.jpg" alt="">
-</div>
-<div class="element">
-
-<p><a href="https://www.amazon.com.br/Fen%C3%B4menos-Transporte-Aplica%C3%A7%C3%B5es-Industriais-Ambiente/dp/8583931410" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Fenômenos de Transporte: Aplicações Industriais</a></p>
-<img src ="img/Fenômenos de transporte - Aplicações industriais.jpg" alt="">
-
-</div>
-<div class="element">
-
-<p><a href="https://www.amazon.com.br/Resist%C3%AAncia-dos-Materiais-Elementos-M%C3%A1quinas/dp/858393116X"class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"></a>Resistência dos materiais e elementos de máquinas</a></p>
-<img src ="img/Resistência dos Materiais e Elementos de Máquinas.jpg" alt="">
-
-</div>
-<div class="element">
-
-<p><a href="https://www.amazon.com.br/Tecnologia-Mec%C3%A2nica-Aplicada-An%C3%A1lise-Esfor%C3%A7os/dp/8583931291" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Tecnologia Mecânica Aplicada à Análise de Esforços</a></p>
-<img src ="img/Tecnologia Mecânica Aplicada à Análise de Esforços.jpg" alt="">
-
-</div>
-<div class="element">
-
-<p><a href="https://www.amazon.com.br/Administra%C3%A7%C3%A3o-Manuten%C3%A7%C3%A3o-Industrial-T%C3%A9cnicas-Aplicadas/dp/8583939632" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Administração da manutenção industrial - Técnicas aplicadas</a></p>
-<img src ="img/Administração da manutenção industrial - Técnicas aplicadas.jpg"">
-
-</div>
-
-
-<div class="element">
-<div class=""class="https://www.amazon.com.br/Ajustagem-Mec%C3%A2nica-Tecnologia-Aplicada-Opera%C3%A7%C3%B5es/dp/8583937729"></a>Ajustagem Mecânica: Tecnologia Aplicada e Operações</a></p>
-<img src ="img/Ajustagem Mecânica231.jpg" alt="">
-
-</div>
-</div>
-<!-- End Example Code -->
-</body>
-</html>
