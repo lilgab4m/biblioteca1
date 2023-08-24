@@ -1,113 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <title>Alimentos</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+<title>Bootstrap Example</title>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
- <nav class="navbar" style="background-color: #e3f2fd;">
-     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-           
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Sugestões</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="acervo.html">Termos</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Categorias
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Alimentos </a></li>
-                      <li><a class="dropdown-item" href="#">Automação</a></li>
-                      <li><a class="dropdown-item" href="#">Currículo comum</a></li>
-                      <li><a class="dropdown-item" href="#">Eltroeletrônica</a></li>
-                      <li><a class="dropdown-item" href="#">Gestão</a></li>
-                      <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
-                      <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
-                      <li><a class="dropdown-item" href="#">Segurança de trabalho </a></li>
-                      <li><a class="dropdown-item" href="#">TI</a></li>
-                      <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
-                      <li><a class="dropdown-item" href="#">Meio ambiente</a></li>
+    <body>
+        <nav class="navbar" style="background-color: #e3f2fd;">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                  
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                         <li class="nav-item">
+                           <a class="nav-link active" aria-current="page" href="#">Sugestões</a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link" href="acervo.html">Termos</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Categorias
+                           </a>
+                           <ul class="dropdown-menu">
+                             <li><a class="dropdown-item" href="#">Alimentos </a></li>
+                             <li><a class="dropdown-item" href="#">Automação</a></li>
+                             <li><a class="dropdown-item" href="#">Currículo comum</a></li>
+                             <li><a class="dropdown-item" href="#">Eltroeletrônica</a></li>
+                             <li><a class="dropdown-item" href="#">Gestão</a></li>
+                             <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
+                             <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
+                             <li><a class="dropdown-item" href="#">Segurança de trabalho </a></li>
+                             <li><a class="dropdown-item" href="#">TI</a></li>
+                             <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
+                             <li><a class="dropdown-item" href="#">Meio ambiente</a></li>
+       
+                             <li><hr class="dropdown-divider"></li>
+                           </ul>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                         </li>
+                       </ul>
+                       <form class="d-flex" role="search">
+                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                         <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                       </form>
+                     </div>
+                   </div>
+                 </nav> 
+             </nav>
+             <style>
+               .container{
+                   padding: 30px;
+                   display: grid;
+                   grid-template-columns: repeat(3, 1fr);
+                   gap: 30px;
+               }
+               .element {
+                   display: flex;
+                   flex-direction: column;
+                   height: 100%;
+                   width: auto;
+                   text-align: center;
+                   align-items: center;
+                   justify-content: center;
+                   border: 1px solid black;
+                   border-radius: 20px;
+                   padding: 10px;
+               }
+               img {
+                   height: 30vh;
+                   width: 20vh;
+               }
+           </style>
 
-                      <li><hr class="dropdown-divider"></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-                </form>
-              </div>
-            </div>
-          </nav> 
-      </nav>
-      <style>
-        .container{
-            padding: 30px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-        }
-        .element {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            width: auto;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid black;
-            border-radius: 20px;
-            padding: 10px;
-        }
-        img {
-            height: 30vh;
-            width: 20vh;
-        }
-    </style>
-    <div class="container">
-        <div class="element">
-            <p><a href="https://www.americanas.com.br/produto/7023274/livro-analise-de-circuitos?opn=YSMESP&offerId=629862f1234ca7e6fdc4c3c7&srsltid=AfmBOoqe8mUdOnUOANXhHIdtYqKSXqkUvAy6ccgZUPxVrHKC40zRxe_Qtrk">Livro - Análise de Circuitos</a></p>
-            <img src="img/analise.jpg" alt="">
-        </div>
-        <div class="element">
-            <p><a href="https://www.magazineluiza.com.br/livro-boas-praticas-de-fabricacao-para-manipulacao-de-alimentos/p/223581600/li/adml/?seller_id=espacoshop&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=68055&gclid=Cj0KCQjwrfymBhCTARIsADXTabkWWUbquGNTsYGm1X9SArEyVz8QWPrdGRTa0i_KIQC_fCDZ9NT9o4saAiTCEALw_wcB&gclsrc=aw.ds" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Boas práticas de fabricação para manipulação de alimentos</a></p>
-            <img src="img/Boas práticas de fabricação para manipulação de alimentos.jpg" alt="">
-        </div>
-        <div class="element">
-            <p><a href="https://www.estantevirtual.com.br/oficinadosaber/senai-sp-fundamentos-de-panificacao-e-confeitaria-3893225820?gclid=Cj0KCQjwrfymBhCTARIsADXTabkWXQ-PoMqYmQz7MbRBR_HanI9D1NOPxVPWeqS_XNWfhKeI0DGVbcMaAjCjEALw_wcB" class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Fundamentos de panificação e confeitaria</a></p>
-            <img src="img/Fundamentos de Panificação e Confeitaria.jpg" alt="">
-        </div>
-        <div class="element">
-            <p><a href="https://www.magazineluiza.com.br/livro-manipulador-de-alimentos/p/223565700/li/adml/?seller_id=magazineluiza&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=68976&gclid=Cj0KCQjwrfymBhCTARIsADXTabmIiDBjapj25fqLIodVgk2VlLMZiGkautgHydQxYdk7HkB9V2-t5qAaAsWdEALw_wcB&gclsrc=aw.ds" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Manipulador de alimentos</a></p>
-            <img src="img/Manipulador de alimentos.jpg" alt="">
-        </div>
-        <div class="element">
-            <p><a href="https://www.estantevirtual.com.br/sirbook/alessandra-pagiato-loureiro-processo-de-fabricacao-de-pizzas-3710160652?gclid=Cj0KCQjwrfymBhCTARIsADXTabmvevEkfCMjRrpaAV3QNPvl8lY-srh49LNijh3x4JHKJmjoX0hli0oaAhaDEALw_wcB" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Processo de fabricação de pizzas</a></p>
-            <img src="img/Processo de Fabricação de Pizzas.jpg" alt="">
-        </div>
-        <div class="element">
-            <p><a href="https://www.magazineluiza.com.br/livro-industrializacao-de-frutas-e-hortalicas/p/223646900/li/adml/?seller_id=magazineluiza&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=68976&gclid=Cj0KCQjwrfymBhCTARIsADXTabka_qcJMOrtWjF_pqN2R7QGVDlMsqYnxMq4iDdGTkGAl81U6tthEI4aAuztEALw_wcB&gclsrc=aw.ds" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Industrialização de frutas e hortaliças</a></p>
-            <img src="img/Industrialização de Leites Capa comum.jpg" alt="">
-        </div>
-        <div class="element">
-            <p><a href="https://www.estantevirtual.com.br/livrariadoadvogado/maria-cecilia-cury-chaddad-rotulagem-de-alimentos-3880530999?gclid=Cj0KCQjwrfymBhCTARIsADXTabl6wFMuKUAcO-C0DisKTgQcYzqS2g8p17P8KK_Gx5oy_sjV-LDSZGsaAkBFEALw_wcB" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Rotulagem de alimentos</a></p>
-            <img src="img/Rotulagem de Alimentos.jpg"alt="">
-        </div>
-            <div class="element">
-            <p><a href="https://www.amazon.com.br/Industrializa%C3%A7%C3%A3o-Leites-V%C3%A1rios-Autores/dp/8583935629" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Industrialização de leites</a></p>
-            <img src="img/Industrialização de Leites Capa comum.jpg" alt="">
-        </div>
+</style>
+<div class="container">
+<div class="element">
+<p><a href="https://www.americanas.com.br/categoria/mercado?chave=dk_hm_tp_1_0_ge" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Livro - Análise de Circuito</a></p>
+<img src ="img/analise.jpg" alt="">
 </div>
+
+<div class="element">
+<p><a href="https://www.estantevirtual.com.br/livros/belvedere-paulo/arduino-uno-fundamentos-e-aplicacoes/10564328?ano_min=2010&livro_usado=1&b_order=preco&gclid=Cj0KCQjw_5unBhCMARIsACZyzS3NGy8dvUcfe_Fvi8rYecjHvK-ui-3aZgqBuZMpkj82c93YHYUxY7UaAoYbEALw_wcB" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Arduino UNO - Fundamentos e aplicações</a></p>
+<img src ="img/autoo.jpg" alt="">
+
+</div>
+<div class="element">
+<p><a href="Cabine primária - Operação e manutenção de subestações"> Cabine primária - Operação e manutenção de subestações</a></p>
+<img src ="img/consumidor.jpg" alt="">
+</div>
+<div class="element">
+
+<p><a href="https://www.amazon.com.br/Comandos-Eletroeletr%C3%B4nicos-Teoria-V%C3%A1rios-Autores/dp/8583931844"> Comandos eletroeletrônicos - Teoria - Vol. 1</a></p>
+<img src ="img/comandos.jpg" alt="">
+
+</div>
+<div class="element">
+
+<p><a href="https://www.estantevirtual.com.br/livros/senai-sp/comandos-eletroeletronicos-teoria/4120619671?ano_min=2010&livro_usado=1&b_order=preco&gclid=Cj0KCQjw_5unBhCMARIsACZyzS2nftZXr47HM9JDngrRye6HZg5yPT-Cu6dxjj4PaH57QnTkC35iarUaAsLcEALw_wcB" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Comandos eletroeletrônicos - Prática</a></p>
+<img src ="img/teoria.jpg" alt="">
+
+</div>
+<div class="element">
+
+<p><a href="https://www.amazon.com.br/Conversores-inversores-Marcos-Antonio-Felizola/dp/8583939349" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Conversores e Inversores - Fundamentos e aplicações</a></p>
+<img src ="img/invensores.jpg" alt="">
+
+</div>
+</div>
+<div class="element">
+
+<p><a href="https://www.senaispeditora.com.br/produto/desenho-de-circuitos-eletronicos/" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Desenho de circuitos eletrônicos</a></p>
+<img src ="img/Desenho_de_circuitos_eletronicos.jpg" alt="">
+
+</div>
+</div>
+<!-- End Example Code -->
 </body>
 </html>
