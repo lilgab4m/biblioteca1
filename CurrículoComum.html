@@ -8,46 +8,116 @@
 <title>Bootstrap Example</title>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body class="p-3 m-0 border-0 bd-example m-0 border-0">
-<!-- Example Code -->
-
-<style>
-    body {
-        padding: 3rem;
-        margin: 0;
-        border: 0;
-        align-content: center;
-    }
-    .img{
-        align-items: center;
-     
-        
-    }
+    <body>
+        <nav class="navbar" style="background-color: #e3f2fd;">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                  
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                         <li class="nav-item">
+                           <a class="nav-link active" aria-current="page" href="#">Sugestões</a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link" href="acervo.html">Termos</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Categorias
+                           </a>
+                           <ul class="dropdown-menu">
+                             <li><a class="dropdown-item" href="#">Alimentos </a></li>
+                             <li><a class="dropdown-item" href="#">Automação</a></li>
+                             <li><a class="dropdown-item" href="#">Currículo comum</a></li>
+                             <li><a class="dropdown-item" href="#">Eltroeletrônica</a></li>
+                             <li><a class="dropdown-item" href="#">Gestão</a></li>
+                             <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
+                             <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
+                             <li><a class="dropdown-item" href="#">Segurança de trabalho </a></li>
+                             <li><a class="dropdown-item" href="#">TI</a></li>
+                             <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
+                             <li><a class="dropdown-item" href="#">Meio ambiente</a></li>
+       
+                             <li><hr class="dropdown-divider"></li>
+                           </ul>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                         </li>
+                       </ul>
+                       <form class="d-flex" role="search">
+                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                         <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                       </form>
+                     </div>
+                   </div>
+                 </nav> 
+             </nav>
+             <style>
+               .container{
+                   padding: 30px;
+                   display: grid;
+                   grid-template-columns: repeat(3, 1fr);
+                   gap: 30px;
+               }
+               .element {
+                   display: flex;
+                   flex-direction: column;
+                   height: 100%;
+                   width: auto;
+                   text-align: center;
+                   align-items: center;
+                   justify-content: center;
+                   border: 1px solid black;
+                   border-radius: 20px;
+                   padding: 10px;
+               }
+               img {
+                   height: 30vh;
+                   width: 20vh;
+               }
+           </style>
 
 </style>
+<div class="container">
+<div class="element">
 <p><a href="https://www.estantevirtual.com.br/livraria-de-sueos/servico-nacional-de-aprendizagem-industrial-ciencias-aplicadas-vol-ii-quimica-e-fisica-4068637314?gclid=Cj0KCQjw_5unBhCMARIsACZyzS3q03rLqUc6cVooyaqGQqmeKxUpVJkx0tNbpT2LZkA-x1JNgWW2hj4aAhpqEALw_wcB" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Ciências Aplicadas - Vol. II</a></p>
 <img src ="img/Ciências Aplicadas - Vol. II.jpg" alt="">
+</div>
 
+<div class="element">
 <p><a href="https://www.estantevirtual.com.br/livros/john-heskett/desenho-industrial/2393968102?show_suggestion=0" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Desenho Industrial</a></p>
 <img src ="img/desenho industrial.jpg" alt="">
 
-
+</div>
+<div class="element">
 <p><a href="https://www.estantevirtual.com.br/livros/thomas-e-french/desenho-tecnico/3251511378?show_suggestion=0" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Desenho técnico</a></p>
 <img src ="img/Desenho técnico.jpg" alt="">
+</div>
+<div class="element">
 
 <p><a href="https://www.estantevirtual.com.br/livros/manoel-paiva/matematica-paiva-vol-1/38190020?show_suggestion=0" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Matemática Paiva - Vol. 1</a></p>
 <img src ="img/Matemática vol I.jpg" alt="">
 
+</div>
+<div class="element">
+
 <p><a href="https://www.estantevirtual.com.br/livros/manoel-paiva/matematica-paiva-vol-2/2605705854?show_suggestion=0" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Matemática Paiva - Vol. 2</a></p>
 <img src ="img/Matemática Paiva - Vol. 2.jpg" alt="">
+
+</div>
+<div class="element">
 
 <p><a href="https://www.estantevirtual.com.br/livros/paranhos-lidia-rodolpho-paulo/metodologia-da-pesquisa-aplicada-a-tecnologia/3272013691?show_suggestion=0" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> METODOLOGIA DA PESQUISA APLICADA A TECNOLOGIA</a></p>
 <img src ="img/Metodologia da pesquisa aplicada à tecnologia.jpg" alt="">
 
+</div>
+<div class="element">
+
 <p><a href="https://www.estantevirtual.com.br/livrosprezentini/jose-wagner-bungart-metodologia-de-projetos-conceitos-planejamento-e-desenvolvimento-3721791596?show_suggestion=0" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Metodologia de projetos: Conceitos, planejamento e desenvolvimento</a></p>
 <img src ="img/Metodologia de projetos - Conceitos, planejamento e desenvolvimento.jpg" alt="">
-</div>
 
+</div>
+</div>
 <!-- End Example Code -->
 </body>
 </html>
