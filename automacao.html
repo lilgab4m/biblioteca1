@@ -8,42 +8,137 @@
 <title>Bootstrap Example</title>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body class="p-3 m-0 border-0 bd-example m-0 border-0">
-<!-- Example Code -->
+<body>
+    <nav class="navbar" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                       <a class="nav-link active" aria-current="page" href="#">Sugestões</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="acervo.html">Termos</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Categorias
+                       </a>
+                       <ul class="dropdown-menu">
+                         <li><a class="dropdown-item" href="#">Alimentos </a></li>
+                         <li><a class="dropdown-item" href="#">Automação</a></li>
+                         <li><a class="dropdown-item" href="#">Currículo comum</a></li>
+                         <li><a class="dropdown-item" href="#">Eltroeletrônica</a></li>
+                         <li><a class="dropdown-item" href="#">Gestão</a></li>
+                         <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
+                         <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
+                         <li><a class="dropdown-item" href="#">Segurança de trabalho </a></li>
+                         <li><a class="dropdown-item" href="#">TI</a></li>
+                         <li><a class="dropdown-item" href="#">Metalmecânica</a></li>
+                         <li><a class="dropdown-item" href="#">Meio ambiente</a></li>
+   
+                         <li><hr class="dropdown-divider"></li>
+                       </ul>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                     </li>
+                   </ul>
+                   <form class="d-flex" role="search">
+                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                     <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                   </form>
+                 </div>
+               </div>
+             </nav> 
+         </nav>
+         <style>
+           .container{
+               padding: 30px;
+               display: grid;
+               grid-template-columns: repeat(3, 1fr);
+               gap: 30px;
+           }
+           .element {
+               display: flex;
+               flex-direction: column;
+               height: 100%;
+               width: auto;
+               text-align: center;
+               align-items: center;
+               justify-content: center;
+               border: 1px solid black;
+               border-radius: 20px;
+               padding: 10px;
+           }
+           img {
+               height: 30vh;
+               width: 20vh;
+           }
+       </style>
 
-<p><a href="https://www.martinsfontespaulista.com.br/confiabilidade-metrologica-906782/p?idsku=906782&utm_source=google&utm_medium=cpc&utm_campaign=&utm_content=&gclid=Cj0KCQjwrfymBhCTARIsADXTabnZS_9UNeUzzYzcuSowpqGsoW3jHajrS80U03q-1xf49-sTZEDcA7caAnyaEALw_wcB" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Confiabilidade metrológica </a></p>
+</style>
+<div class="container">
+<div class="element">
+<p><a href="https://www.martinsfontespaulista.com.br/confiabilidade-metrologica-906782/p?idsku=906782&utm_source=google&utm_medium=cpc&utm_campaign=&utm_content=&gclid=Cj0KCQjwrfymBhCTARIsADXTabnZS_9UNeUzzYzcuSowpqGsoW3jHajrS80U03q-1xf49-sTZEDcA7caAnyaEALw_wcB" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Confiabilidade metrológica </a></p>
 <img src="img/auto.jps.jpg" alt="">
 
+</div>
+<div class="element">
 
-
-<p><a href="https://www.estantevirtual.com.br/livros/nelson-simoes-filho/controle-automatico-de-processos-industriais/3929040987?livro_usado=1&b_order=preco&gclid=Cj0KCQjwrfymBhCTARIsADXTabmBq1wror77qgkm30BVQZ-c2ET9NOWTUP8QNqOaBg8P907jwWQCL8kaAscrEALw_wcB" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Controle automático de processos</a></p>
+<p><a href="https://www.estantevirtual.com.br/livros/nelson-simoes-filho/controle-automatico-de-processos-industriais/3929040987?livro_usado=1&b_order=preco&gclid=Cj0KCQjwrfymBhCTARIsADXTabmBq1wror77qgkm30BVQZ-c2ET9NOWTUP8QNqOaBg8P907jwWQCL8kaAscrEALw_wcB" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Controle automático de processos</a></p>
 <img src="img/automaçoes.jpg" alt="">
 
-<p><a href="https://www.editoradodireito.com.br/controladores-logicos-programaveis---3%C2%AA-edicao/p?idsku=728180&gclid=Cj0KCQjwrfymBhCTARIsADXTablQogWotvYNGm-C5gT_AIg8bY42Ai_yeqDRPpyDUeNIFt1xeKfvOyAaAs4TEALw_wcB" class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Controle lógico programável</a></p>
+
+</div>
+<div class="element">
+
+<p><a href="https://www.editoradodireito.com.br/controladores-logicos-programaveis---3%C2%AA-edicao/p?idsku=728180&gclid=Cj0KCQjwrfymBhCTARIsADXTablQogWotvYNGm-C5gT_AIg8bY42Ai_yeqDRPpyDUeNIFt1xeKfvOyAaAs4TEALw_wcB" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Controle lógico programável</a></p>
 <img src="img/controle.jpg" alt="">
 
+</div>
+<div class="element">
 
-<p><a href="https://www.magazineluiza.com.br/livro-controlador-logico-programavel-com-siemens-step-7-fundamentos/p/dc108k76hk/li/ldeh/?seller_id=espacoshop&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=68055&gclid=Cj0KCQjwrfymBhCTARIsADXTabnLL6lT4HhHdnuhEXJQVLXPzxr6joH6XQw3c2KWGQmLS36PZxLCi4IaAjbTEALw_wcB&gclsrc=aw.ds" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Controle lógico programável com Siemens Step 7 - Fundamentos</a></p>
+
+<p><a href="https://www.magazineluiza.com.br/livro-controlador-logico-programavel-com-siemens-step-7-fundamentos/p/dc108k76hk/li/ldeh/?seller_id=espacoshop&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=68055&gclid=Cj0KCQjwrfymBhCTARIsADXTabnLL6lT4HhHdnuhEXJQVLXPzxr6joH6XQw3c2KWGQmLS36PZxLCi4IaAjbTEALw_wcB&gclsrc=aw.ds" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Controle lógico programável com Siemens Step 7 - Fundamentos</a></p>
 <img src="img/step.jpg" alt="">
 
-<p><a href="https://www.magazineluiza.com.br/livro-elementos-finais-de-controle/p/ec5k3j1434/li/ldeh/?&seller_id=espacoshop&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=68055&gclid=Cj0KCQjwrfymBhCTARIsADXTabm9yDa4MUa5tz0g674vgZVVIJHHkF39kPFyJS558i9nsF-EqP5-fzsaAmhYEALw_wcB&gclsrc=aw.ds" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Elementos finais de controle</a></p>
+</div>
+<div class="element">
+
+<p><a href="https://www.magazineluiza.com.br/livro-elementos-finais-de-controle/p/ec5k3j1434/li/ldeh/?&seller_id=espacoshop&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=68055&gclid=Cj0KCQjwrfymBhCTARIsADXTabm9yDa4MUa5tz0g674vgZVVIJHHkF39kPFyJS558i9nsF-EqP5-fzsaAmhYEALw_wcB&gclsrc=aw.ds" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Elementos finais de controle</a></p>
 <img src="img/finais.jpg" alt="">
 
+</div>
+<div class="element">
 
-<p><a href="https://www.google.com.br/books/edition/Fundamentos_de_instrumenta%C3%A7%C3%A3o_anal%C3%ADti/4M5FDwAAQBAJ?hl=pt-BR&gbpv=1&dq=Fundamentos+de+instrumenta%C3%A7%C3%A3o+-+Anal%C3%ADtica+/+processos+industriais+/+v%C3%A1lvulas&pg=PP1&printsec=frontcover" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Fundamentos de instrumentação - Analítica / processos industriais / válvulas</a></p>
+
+<p><a href="https://www.google.com.br/books/edition/Fundamentos_de_instrumenta%C3%A7%C3%A3o_anal%C3%ADti/4M5FDwAAQBAJ?hl=pt-BR&gbpv=1&dq=Fundamentos+de+instrumenta%C3%A7%C3%A3o+-+Anal%C3%ADtica+/+processos+industriais+/+v%C3%A1lvulas&pg=PP1&printsec=frontcover" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Fundamentos de instrumentação - Analítica / processos industriais / válvulas</a></p>
 <img src="img/fundamentos.jpg" alt="">
 
+</div>
+<div class="element">
 
-<p><a href="https://www.estantevirtual.com.br/livros/senai-sp/fundamentos-de-instrumentacao-eletronica-analogica-colecao-automacao/956826335?livro_novo=1&b_order=preco&gclid=Cj0KCQjwrfymBhCTARIsADXTablIAExXtVzmYjfvrs6zmvEVBUr4-wLUihoLvh2YRl5LltfWbC760GUaAlKuEALw_wcB" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Fundamentos de instrumentação - Eletrônica analógica</a></p>
+
+<p><a href="https://www.estantevirtual.com.br/livros/senai-sp/fundamentos-de-instrumentacao-eletronica-analogica-colecao-automacao/956826335?livro_novo=1&b_order=preco&gclid=Cj0KCQjwrfymBhCTARIsADXTablIAExXtVzmYjfvrs6zmvEVBUr4-wLUihoLvh2YRl5LltfWbC760GUaAlKuEALw_wcB" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Fundamentos de instrumentação - Eletrônica analógica</a></p>
 <img src="img/instrumentação.jpg" alt="">
+
+</div>
+<div class="element">
 
 
 <p><a href="https://www.estantevirtual.com.br/pook-book/senai-sp-instrumentacao-digital-3856768731?gclid=Cj0KCQjwrfymBhCTARIsADXTabl50ATlKLFST9KLY9e5X_8rjIpHMDDKl6Z1m4f3nnn34DqnxShhBZ0aAhB1EALw_wcB" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Instrumentação digital</a></p>
 <img src="digitais.jpg" alt="" >
 
+</div>
+<div class="element">
 
-<p><a href="https://www.estantevirtual.com.br/livros/senai/metrologia/3233842450?ano_min=2010&livro_usado=1&b_order=preco&gclid=Cj0KCQjwrfymBhCTARIsADXTabmxwLvEvg6TSSWF9Kh0qnZC6ZVhS_dGBZOiOXegNyT28EbPDmhQ7CEaAiKAEALw_wcB" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Metrologia</a></p>
+
+<p><a href="https://www.estantevirtual.com.br/livros/senai/metrologia/3233842450?ano_min=2010&livro_usado=1&b_order=preco&gclid=Cj0KCQjwrfymBhCTARIsADXTabmxwLvEvg6TSSWF9Kh0qnZC6ZVhS_dGBZOiOXegNyT28EbPDmhQ7CEaAiKAEALw_wcB" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Metrologia</a></p>
 <img src="img/metrologia.jpg" alt="" >
+
+</div>
+</div>
 
 <!-- End Example Code -->
 </body>
